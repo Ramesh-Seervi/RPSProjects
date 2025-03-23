@@ -7,6 +7,12 @@ export const business = [
         "appurl": "VillageCommunity"
     },
     {
+        "id": 1002,
+        "label": "Food Delivery Services Apps",
+        "value": "Apps for booking services like rides, food delivery, etc.",
+        "appurl": "FoodDelivery"
+    },
+    {
         "id": 1,
         "label": "E-commerce Apps",
         "value": "Online marketplaces for buying/selling products.",
