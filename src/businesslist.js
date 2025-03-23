@@ -8,14 +8,15 @@ export const business = [
     },
     {
         "id": 1,
-        "label": "Social Media Apps",
-        "value": "Social networking platforms like Instagram, Facebook, etc.",
-    },
-    {
-        "id": 2,
         "label": "E-commerce Apps",
         "value": "Online marketplaces for buying/selling products.",
         "appurl": "ECommerce"
+    },
+    {
+        "id": 2,
+        "label": "Social Media Apps",
+        "value": "Social networking platforms like Instagram, Facebook, etc.",
+        "appurl": "SocialMedia"
     },
     {
         "id": 3,

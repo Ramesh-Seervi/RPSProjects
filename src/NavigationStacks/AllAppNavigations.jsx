@@ -4,6 +4,7 @@ import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import ECommerceBottomNavigation from '../Apps/ECommerce/ECommerceBottomNavigation';
 import AllApps from '../AllApps';
 import VillageCommunityNavigation from '../Apps/VillageCommunity/VillageCommunityNavigation';
+import SocialMediaNavigation from '../Apps/SocialMediaApps/SocialMediaNavigation';
 
 const AllAppNav = createStackNavigator();
 
@@ -14,7 +15,7 @@ const AllAppNavigations = () => {
                 <AllAppNav.Screen name="AllApps" component={AllApps} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="ECommerce" component={ECommerceBottomNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="VillageCommunity" component={VillageCommunityNavigation} options={{ headerShown: false }} />
-                <AllAppNav.Screen name="CategoriesWise" component={ECommerceBottomNavigation} options={{ headerShown: false }} />
+                <AllAppNav.Screen name="SocialMedia" component={SocialMediaNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="SignIn" component={ECommerceBottomNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="VerifyingNumber" component={ECommerceBottomNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="ProdectDetails" component={ECommerceBottomNavigation} options={{ headerShown: false }} />
