@@ -13,6 +13,12 @@ export const business = [
         "appurl": "FoodDelivery"
     },
     {
+        "id": 1003,
+        "label": "Rides Booking Apps",
+        "value": "Apps for booking services like rides, food delivery, etc.",
+        "appurl": "RidesBooking"
+    },
+    {
         "id": 1,
         "label": "E-commerce Apps",
         "value": "Online marketplaces for buying/selling products.",
