@@ -1,6 +1,6 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { Search, ShoppingCart, UserRoundPen, Store, Users } from 'lucide-react-native'; // Import icons from lucide-react-native
+import { Search, ShoppingCart,  User } from 'lucide-react-native'; // Import icons from lucide-react-native
 import SearchScreen from './screens/SearchScreen';
 import CartScreen from './screens/CartScreen';
 import ProfileScreen from './screens/ProfileScreen';
@@ -45,7 +45,7 @@ export default function ECommerceBottomNavigation() {
         options={{
           title: 'Profile',
           tabBarIcon: ({ color, size }) => (
-            <UserRoundPen size={size} color={color} />
+            <User size={size} color={color} />
           ),
         }}
       />
