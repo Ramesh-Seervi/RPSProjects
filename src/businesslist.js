@@ -1,6 +1,12 @@
 
 export const business = [
     {
+        "id": 13,
+        "label": "Event & Ticketing Apps",
+        "value": "Apps for managing events, selling tickets, and event promotion.",
+        "appurl": "EventTicketing"
+    },
+    {
         "id": 7,
         "label": "Finance & Budgeting Apps",
         "value": "Personal finance management, budgeting, and investing apps.",
@@ -83,11 +89,6 @@ export const business = [
         "id": 12,
         "label": "Dating & Relationship Apps",
         "value": "Apps for meeting new people and finding relationships."
-    },
-    {
-        "id": 13,
-        "label": "Event & Ticketing Apps",
-        "value": "Apps for managing events, selling tickets, and event promotion."
     },
     {
         "id": 14,
