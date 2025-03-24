@@ -25,6 +25,12 @@ export const business = [
         "appurl": "EducationApps"
     },
     {
+        "id": 9,
+        "label": "Gaming Apps",
+        "value": "Mobile games, multiplayer games, and casual games.",
+        "appurl": "GamingApps"
+    },
+    {
         "id": 1,
         "label": "E-commerce Apps",
         "value": "Online marketplaces for buying/selling products.",
@@ -61,11 +67,6 @@ export const business = [
         "id": 8,
         "label": "News & Magazines Apps",
         "value": "Aggregators for news and niche magazine content."
-    },
-    {
-        "id": 9,
-        "label": "Gaming Apps",
-        "value": "Mobile games, multiplayer games, and casual games."
     },
     {
         "id": 10,

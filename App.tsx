@@ -7,10 +7,10 @@ import AllAppNavigations from './src/NavigationStacks/AllAppNavigations'
 
 export default function App() {
   return (
-    <SafeAreaView style={{flex:1, backgroundColor:'#fff'}}>
+    // <SafeAreaView style={{flex:1, backgroundColor:'#fff'}}>
       <NavigationContainer>
         <AllAppNavigations />
       </NavigationContainer>
-    </SafeAreaView>
+    // </SafeAreaView>
   )
 }
