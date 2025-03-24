@@ -13,6 +13,7 @@ import FinanceAppsNavigation from '../Apps/FinanceApps/FinanceAppsNavigation';
 import EventTicketingNavigation from '../Apps/EventTicketing/EventTicketingNavigation';
 import LiveStreamingNavigation from '../Apps/LiveStreaming/LiveStreamingNavigation';
 import RealEstateNavigation from '../Apps/RealEstate/RealEstateNavigation';
+import JobFreelanceNavigation from '../Apps/JobFreelance/JobFreelanceNavigation';
 
 const AllAppNav = createStackNavigator();
 
@@ -32,6 +33,7 @@ const AllAppNavigations = () => {
                 <AllAppNav.Screen name="EventTicketing" component={EventTicketingNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="LiveStreaming" component={LiveStreamingNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="RealEstate" component={RealEstateNavigation} options={{ headerShown: false }} />
+                <AllAppNav.Screen name="JobFreelance" component={JobFreelanceNavigation} options={{ headerShown: false }} />
                 </AllAppNav.Navigator>
             {/* <ECommerceBottomNavigation /> */}
         </GestureHandlerRootView>

@@ -1,6 +1,12 @@
 
 export const business = [
     {
+        "id": 11,
+        "label": "Job and Freelance Apps",
+        "value": "Job search and freelancing platforms like Upwork, Fiverr.",
+        "appurl": "JobFreelance"
+    },
+    {
         "id": 14,
         "label": "Real Estate Apps",
         "value": "Apps for finding properties, rental listings, and property sales.",
@@ -92,11 +98,7 @@ export const business = [
         "label": "Productivity & Task Management Apps",
         "value": "To-do lists, task managers, and productivity boosters."
     },
-    {
-        "id": 11,
-        "label": "Job and Freelance Apps",
-        "value": "Job search and freelancing platforms like Upwork, Fiverr."
-    },
+   
     {
         "id": 12,
         "label": "Dating & Relationship Apps",
