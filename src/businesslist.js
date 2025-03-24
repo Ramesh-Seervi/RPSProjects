@@ -1,6 +1,12 @@
 
 export const business = [
     {
+        "id": 55,
+        "label": "Live Streaming Apps",
+        "value": "Platforms for live video streaming (e.g., Twitch, Instagram Live).",
+        "appurl": "LiveStreaming"
+    },
+    {
         "id": 13,
         "label": "Event & Ticketing Apps",
         "value": "Apps for managing events, selling tickets, and event promotion.",
@@ -295,11 +301,7 @@ export const business = [
         "label": "Smartwatch Companion Apps",
         "value": "Apps for pairing with smartwatches for enhanced functionality."
     },
-    {
-        "id": 55,
-        "label": "Live Streaming Apps",
-        "value": "Platforms for live video streaming (e.g., Twitch, Instagram Live)."
-    },
+   
     {
         "id": 56,
         "label": "Food & Drink Recipe Apps",
