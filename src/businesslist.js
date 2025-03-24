@@ -19,6 +19,12 @@ export const business = [
         "appurl": "RidesBooking"
     },
     {
+        "id": 5,
+        "label": "Education Apps",
+        "value": "E-learning platforms, exam preparation, and tutoring apps.",
+        "appurl": "EducationApps"
+    },
+    {
         "id": 1,
         "label": "E-commerce Apps",
         "value": "Online marketplaces for buying/selling products.",
@@ -40,11 +46,7 @@ export const business = [
         "label": "Fitness & Health Apps",
         "value": "Apps for fitness tracking, diet, and mental health support."
     },
-    {
-        "id": 5,
-        "label": "Education Apps",
-        "value": "E-learning platforms, exam preparation, and tutoring apps."
-    },
+  
     {
         "id": 6,
         "label": "Travel & Tourism Apps",
