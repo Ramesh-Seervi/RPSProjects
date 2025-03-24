@@ -9,6 +9,7 @@ import FoodDeliveryNavigation from '../Apps/FoodDelivery/FoodDeliveryNavigation'
 import RidesBookingNavigation from '../Apps/RidesBooking/RidesBookingNavigation';
 import EducationAppsNavigation from '../Apps/EducationApps/EducationAppsNavigation';
 import GamingAppsNavigation from '../Apps/GamingApps/GamingAppsNavigation';
+import FinanceAppsNavigation from '../Apps/FinanceApps/FinanceAppsNavigation';
 
 const AllAppNav = createStackNavigator();
 
@@ -24,6 +25,7 @@ const AllAppNavigations = () => {
                 <AllAppNav.Screen name="RidesBooking" component={RidesBookingNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="EducationApps" component={EducationAppsNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="GamingApps" component={GamingAppsNavigation} options={{ headerShown: false }} />
+                <AllAppNav.Screen name="Finance" component={FinanceAppsNavigation} options={{ headerShown: false }} />
                 </AllAppNav.Navigator>
             {/* <ECommerceBottomNavigation /> */}
         </GestureHandlerRootView>

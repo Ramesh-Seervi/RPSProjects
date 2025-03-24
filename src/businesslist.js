@@ -1,6 +1,12 @@
 
 export const business = [
     {
+        "id": 7,
+        "label": "Finance & Budgeting Apps",
+        "value": "Personal finance management, budgeting, and investing apps.",
+        "appurl": "Finance"
+    },
+    {
         "id": 1001,
         "label": "Village Community App",
         "value": " This app will include features like local news, events, services, and community discussions",
@@ -57,11 +63,6 @@ export const business = [
         "id": 6,
         "label": "Travel & Tourism Apps",
         "value": "Apps for booking flights, hotels, and tourist attractions."
-    },
-    {
-        "id": 7,
-        "label": "Finance & Budgeting Apps",
-        "value": "Personal finance management, budgeting, and investing apps."
     },
     {
         "id": 8,
