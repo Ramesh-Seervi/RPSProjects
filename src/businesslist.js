@@ -1,5 +1,12 @@
 
 export const business = [
+
+    {
+        "id": 8,
+        "label": "News & Magazines Apps",
+        "value": "Aggregators for news and niche magazine content.",
+        "appurl": "NewsMagazine"
+    },
     {
         "id": 6092,
         "label": "B2B App",
@@ -96,11 +103,6 @@ export const business = [
     },
   
 
-    {
-        "id": 8,
-        "label": "News & Magazines Apps",
-        "value": "Aggregators for news and niche magazine content."
-    },
     {
         "id": 10,
         "label": "Productivity & Task Management Apps",
