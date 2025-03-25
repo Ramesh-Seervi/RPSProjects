@@ -1,6 +1,12 @@
 
 export const business = [
     {
+        "id": 6,
+        "label": "Travel & Tourism Apps",
+        "value": "Apps for booking flights, hotels, and tourist attractions.",
+        "appurl": "TravelTourism"
+    },
+    {
         "id": 11,
         "label": "Job and Freelance Apps",
         "value": "Job search and freelancing platforms like Upwork, Fiverr.",
@@ -83,11 +89,7 @@ export const business = [
         "value": "Apps for fitness tracking, diet, and mental health support."
     },
   
-    {
-        "id": 6,
-        "label": "Travel & Tourism Apps",
-        "value": "Apps for booking flights, hotels, and tourist attractions."
-    },
+
     {
         "id": 8,
         "label": "News & Magazines Apps",
