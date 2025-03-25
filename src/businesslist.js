@@ -1,6 +1,12 @@
 
 export const business = [
     {
+        "id": 233,
+        "label": "AI-Powered Fashion Trend Apps",
+        "value": "Apps that use AI to predict fashion trends and suggest clothing to users.",
+        "appurl": "FashionTrendApps"
+    },
+    {
         "id": 12345,
         "label": "Dashboard Management Apps",
         "value": "beautiful and functional dashboard with English and Arabic language support using React Native.",
@@ -1214,11 +1220,7 @@ export const business = [
         "label": "Career Counseling Apps",
         "value": "Apps that provide career advice, resume reviews, and job search tips."
     },
-    {
-        "id": 233,
-        "label": "AI-Powered Fashion Trend Apps",
-        "value": "Apps that use AI to predict fashion trends and suggest clothing to users."
-    },
+   
     {
         "id": 234,
         "label": "Virtual Health Consultations Apps",
