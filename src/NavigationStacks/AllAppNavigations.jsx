@@ -21,6 +21,7 @@ import SmartHomeManagementNavigation from '../Apps/SmartHomeManagement/SmartHome
 import DatingAppSetupNavigation from '../Apps/DatingAppSetup/DatingAppSetupNavigation';
 import DashboardManagementNavigation from '../Apps/DashboardManagement/DashboardManagementNavigation';
 import FashionTrendAppsNavigation from '../Apps/FashionTrendApps/FashionTrendAppsNavigation';
+import SportsFitnessNavigation from '../Apps/SportsFitness/SportsFitnessNavigation';
 
 const AllAppNav = createStackNavigator();
 
@@ -47,6 +48,7 @@ const AllAppNavigations = () => {
                 <AllAppNav.Screen name="DatingAppSetup" component={DatingAppSetupNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="DashboardManagement" component={DashboardManagementNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="FashionTrendApps" component={FashionTrendAppsNavigation} options={{ headerShown: false }} />
+                <AllAppNav.Screen name="SportsFitness" component={SportsFitnessNavigation} options={{ headerShown: false }} />
                 </AllAppNav.Navigator>
             {/* <ECommerceBottomNavigation /> */}
         </GestureHandlerRootView>

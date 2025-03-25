@@ -1,6 +1,12 @@
 
 export const business = [
     {
+        "id": 51,
+        "label": "Sports & Fitness Tracker Apps",
+        "value": "Apps to track sports activities, fitness progress, and challenges.",
+        "appurl": "SportsFitness"
+    },
+    {
         "id": 233,
         "label": "AI-Powered Fashion Trend Apps",
         "value": "Apps that use AI to predict fashion trends and suggest clothing to users.",
@@ -314,11 +320,7 @@ export const business = [
         "label": "AR-based Shopping Apps",
         "value": "Apps for shopping with augmented reality features like virtual try-ons."
     },
-    {
-        "id": 51,
-        "label": "Sports & Fitness Tracker Apps",
-        "value": "Apps to track sports activities, fitness progress, and challenges."
-    },
+    
     {
         "id": 52,
         "label": "Social Impact & Charity Apps",
