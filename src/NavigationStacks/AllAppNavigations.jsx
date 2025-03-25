@@ -19,6 +19,7 @@ import B2BAppNavigation from '../Apps/B2BApp/B2BAppNavigation';
 import NewsMagazineNavigation from '../Apps/NewsMagazine/NewsMagazineNavigation';
 import SmartHomeManagementNavigation from '../Apps/SmartHomeManagement/SmartHomeManagementNavigation';
 import DatingAppSetupNavigation from '../Apps/DatingAppSetup/DatingAppSetupNavigation';
+import DashboardManagementNavigation from '../Apps/DashboardManagement/DashboardManagementNavigation';
 
 const AllAppNav = createStackNavigator();
 
@@ -43,6 +44,7 @@ const AllAppNavigations = () => {
                 <AllAppNav.Screen name="B2BApp" component={B2BAppNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="SmartHomeManagement" component={SmartHomeManagementNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="DatingAppSetup" component={DatingAppSetupNavigation} options={{ headerShown: false }} />
+                <AllAppNav.Screen name="DashboardManagement" component={DashboardManagementNavigation} options={{ headerShown: false }} />
                 </AllAppNav.Navigator>
             {/* <ECommerceBottomNavigation /> */}
         </GestureHandlerRootView>
