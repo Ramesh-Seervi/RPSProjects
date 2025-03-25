@@ -1,6 +1,12 @@
 
 export const business = [
     {
+        "id": 6092,
+        "label": "B2B App",
+        "value": "This app will include essential features like user authentication, business profiles, product/service catalog, and messaging capabilities.",
+        "appurl": "B2BApp"
+    },
+    {
         "id": 6,
         "label": "Travel & Tourism Apps",
         "value": "Apps for booking flights, hotels, and tourist attractions.",
