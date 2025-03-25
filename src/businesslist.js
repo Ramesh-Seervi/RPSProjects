@@ -1,6 +1,11 @@
 
 export const business = [
-
+    {
+        "id": 8992,
+        "label": "Smart Home Management App with Multi-language Apps",
+        "value": "beautiful and functional Smart Home Management App with multi-language support using React Native.",
+        "appurl": "SmartHomeManagement"
+    },
     {
         "id": 8,
         "label": "News & Magazines Apps",
