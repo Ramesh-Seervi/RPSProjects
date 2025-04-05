@@ -1,6 +1,12 @@
 
 export const business = [
     {
+        "id": 2007,
+        "label": "Canva",
+        "value": "We'll create a modern, beautiful interface with core Canva features like the feed, profile, and notifications.",
+        "appurl": "Canva"
+    },
+    {
         "id": 2006,
         "label": "Snapdeal",
         "value": "We'll create a modern, beautiful interface with core Snapdeal features like the feed, profile, and notifications.",

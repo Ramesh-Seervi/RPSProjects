@@ -28,6 +28,7 @@ import MyntraNavigation from '../Apps/Myntra/MyntraNavigation';
 import TruecallerNavigation from '../Apps/Truecaller/TruecallerNavigation';
 import BigBasketNavigation from '../Apps/BigBasket/BigBasketNavigation';
 import SnapdealNavigation from '../Apps/Snapdeal/SnapdealNavigation';
+import CanvaNavigation from '../Apps/Canva/CanvaNavigation';
 
 const AllAppNav = createStackNavigator();
 
@@ -60,6 +61,7 @@ const AllAppNavigations = () => {
                 <AllAppNav.Screen name="Truecaller" component={TruecallerNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="BigBasket" component={BigBasketNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="Snapdeal" component={SnapdealNavigation} options={{ headerShown: false }} />
+                <AllAppNav.Screen name="Canva" component={CanvaNavigation} options={{ headerShown: false }} />
                 </AllAppNav.Navigator>
             {/* <ECommerceBottomNavigation /> */}
         </GestureHandlerRootView>
