@@ -27,6 +27,7 @@ import TwitterNavigation from '../Apps/Twitter/TwitterNavigation';
 import MyntraNavigation from '../Apps/Myntra/MyntraNavigation';
 import TruecallerNavigation from '../Apps/Truecaller/TruecallerNavigation';
 import BigBasketNavigation from '../Apps/BigBasket/BigBasketNavigation';
+import SnapdealNavigation from '../Apps/Snapdeal/SnapdealNavigation';
 
 const AllAppNav = createStackNavigator();
 
@@ -58,6 +59,7 @@ const AllAppNavigations = () => {
                 <AllAppNav.Screen name="Myntra" component={MyntraNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="Truecaller" component={TruecallerNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="BigBasket" component={BigBasketNavigation} options={{ headerShown: false }} />
+                <AllAppNav.Screen name="Snapdeal" component={SnapdealNavigation} options={{ headerShown: false }} />
                 </AllAppNav.Navigator>
             {/* <ECommerceBottomNavigation /> */}
         </GestureHandlerRootView>

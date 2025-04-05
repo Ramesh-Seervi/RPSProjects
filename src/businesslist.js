@@ -1,6 +1,12 @@
 
 export const business = [
     {
+        "id": 2006,
+        "label": "Snapdeal",
+        "value": "We'll create a modern, beautiful interface with core Snapdeal features like the feed, profile, and notifications.",
+        "appurl": "Snapdeal"
+    },
+    {
         "id": 2005,
         "label": "BigBasket",
         "value": "We'll create a modern, beautiful interface with core BigBasket features like the feed, profile, and notifications.",
