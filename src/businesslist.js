@@ -1,6 +1,12 @@
 
 export const business = [
     {
+        "id": 2001,
+        "label": "Flipkart",
+        "value": "We'll create a fully featured app with tabs for Home, Categories, Cart, and Profile.",
+        "appurl": "Flipkart"
+    },
+    {
         "id": 51,
         "label": "Sports & Fitness Tracker Apps",
         "value": "Apps to track sports activities, fitness progress, and challenges.",
