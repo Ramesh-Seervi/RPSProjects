@@ -24,6 +24,7 @@ import FashionTrendAppsNavigation from '../Apps/FashionTrendApps/FashionTrendApp
 import SportsFitnessNavigation from '../Apps/SportsFitness/SportsFitnessNavigation';
 import FlipkartNavigation from '../Apps/Flipkart/FlipkartNavigation';
 import TwitterNavigation from '../Apps/Twitter/TwitterNavigation';
+import MyntraNavigation from '../Apps/Myntra/MyntraNavigation';
 
 const AllAppNav = createStackNavigator();
 
@@ -52,6 +53,7 @@ const AllAppNavigations = () => {
                 <AllAppNav.Screen name="FashionTrendApps" component={FashionTrendAppsNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="SportsFitness" component={SportsFitnessNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="Twitter" component={TwitterNavigation} options={{ headerShown: false }} />
+                <AllAppNav.Screen name="Myntra" component={MyntraNavigation} options={{ headerShown: false }} />
                 </AllAppNav.Navigator>
             {/* <ECommerceBottomNavigation /> */}
         </GestureHandlerRootView>

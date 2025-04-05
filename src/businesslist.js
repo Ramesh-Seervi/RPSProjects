@@ -1,6 +1,12 @@
 
 export const business = [
     {
+        "id": 2003,
+        "label": "Myntra",
+        "value": "We'll create a modern, beautiful interface with core Myntra features like the feed, profile, and notifications.",
+        "appurl": "Myntra"
+    },
+    {
         "id": 2002,
         "label": "Twitter",
         "value": "We'll create a modern, beautiful interface with core Twitter features like the feed, profile, and notifications.",
