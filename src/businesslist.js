@@ -1,6 +1,12 @@
 
 export const business = [
     {
+        "id": 2008,
+        "label": "ProductDetails",
+        "value": "Product Details, Cart and Payment Section, Review Details, and a Review Section, you can break down the app into several screens, each with its own set of components. ",
+        "appurl": "ProductDetails"
+    },
+    {
         "id": 2007,
         "label": "Canva",
         "value": "We'll create a modern, beautiful interface with core Canva features like the feed, profile, and notifications.",
