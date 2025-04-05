@@ -1252,6 +1252,27 @@ PODS:
     - React-jsiexecutor
     - React-RCTFBReactNativeSpec
     - ReactCommon/turbomodule/core
+  - react-native-blur (4.4.1):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.11.18.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
   - react-native-maps (1.20.1):
     - React-Core
   - react-native-safe-area-context (5.3.0):
@@ -1935,6 +1956,7 @@ DEPENDENCIES:
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - React-Mapbuffer (from `../node_modules/react-native/ReactCommon`)
   - React-microtasksnativemodule (from `../node_modules/react-native/ReactCommon/react/nativemodule/microtasks`)
+  - "react-native-blur (from `../node_modules/@react-native-community/blur`)"
   - react-native-maps (from `../node_modules/react-native-maps`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - "react-native-skia (from `../node_modules/@shopify/react-native-skia`)"
@@ -2060,6 +2082,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   React-microtasksnativemodule:
     :path: "../node_modules/react-native/ReactCommon/react/nativemodule/microtasks"
+  react-native-blur:
+    :path: "../node_modules/@react-native-community/blur"
   react-native-maps:
     :path: "../node_modules/react-native-maps"
   react-native-safe-area-context:
@@ -2179,6 +2203,7 @@ SPEC CHECKSUMS:
   React-logger: 88de26ac2b4ae3ebf55108f4be299f967151d0ec
   React-Mapbuffer: b6619632c9800e300a9dcfb5139009416cec6392
   React-microtasksnativemodule: e99c1d7791f5e8d5be370b78e02433e64d2391d8
+  react-native-blur: b37343d4df1af48a17444156b674b26d5aec2425
   react-native-maps: ee1e65647460c3d41e778071be5eda10e3da6225
   react-native-safe-area-context: 286b3e7b5589795bb85ffc38faf4c0706c48a092
   react-native-skia: 1db64b6c19dbc6a60b9175ec2a2a8239b6b8b7bb
