@@ -35,6 +35,7 @@ import AllTrailsNavigation from '../Apps/AllTrails/AllTrailsNavigation';
 import TrelloNavigation from '../Apps/Trello/TrelloNavigation';
 import TempleManagementNavigation from '../Apps/TempleManagement/TempleManagementNavigation';
 import AircraftNavigation from '../Apps/Aircraft/AircraftNavigation';
+import MercedesBenzNavigation from '../Apps/MercedesBenz/MercedesBenzNavigation';
 
 const AllAppNav = createStackNavigator();
 
@@ -74,6 +75,7 @@ const AllAppNavigations = () => {
                 <AllAppNav.Screen name="Trello" component={TrelloNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="TempleManagement" component={TempleManagementNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="Aircraft" component={AircraftNavigation} options={{ headerShown: false }} />
+                <AllAppNav.Screen name="MercedesBenz" component={MercedesBenzNavigation} options={{ headerShown: false }} />
                 </AllAppNav.Navigator>
             {/* <ECommerceBottomNavigation /> */}
         </GestureHandlerRootView>

@@ -1,5 +1,11 @@
 
 export const business = [
+    {
+        "id": 2014,
+        "label": "MercedesBenz",
+        "value": " We'll create an app that showcases different aircraft with details, specifications, and beautiful ",
+        "appurl": "MercedesBenz"
+    },
    
     {
         "id": 2013,
