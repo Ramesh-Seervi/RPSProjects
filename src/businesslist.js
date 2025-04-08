@@ -1,6 +1,12 @@
 
 export const business = [
     {
+        "id": 2012,
+        "label": "TempleManagement",
+        "value": "This app will help manage temple activities, events, donations, and more.",
+        "appurl": "TempleManagement"
+    },
+    {
         "id": 2011,
         "label": "Trello",
         "value": "We'll create a beautiful and functional app with features like boards, lists, cards, and drag-and-drop functionality.",

@@ -33,6 +33,7 @@ import ProductDetailsNavigation from '../Apps/ProductDetails/ProductDetailsNavig
 import NotionNavigation from '../Apps/Notion/NotionNavigation';
 import AllTrailsNavigation from '../Apps/AllTrails/AllTrailsNavigation';
 import TrelloNavigation from '../Apps/Trello/TrelloNavigation';
+import TempleManagementNavigation from '../Apps/TempleManagement/TempleManagementNavigation';
 
 const AllAppNav = createStackNavigator();
 
@@ -70,6 +71,7 @@ const AllAppNavigations = () => {
                 <AllAppNav.Screen name="Notion" component={NotionNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="AllTrails" component={AllTrailsNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="Trello" component={TrelloNavigation} options={{ headerShown: false }} />
+                <AllAppNav.Screen name="TempleManagement" component={TempleManagementNavigation} options={{ headerShown: false }} />
                 </AllAppNav.Navigator>
             {/* <ECommerceBottomNavigation /> */}
         </GestureHandlerRootView>
