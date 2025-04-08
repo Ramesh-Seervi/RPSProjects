@@ -31,6 +31,7 @@ import SnapdealNavigation from '../Apps/Snapdeal/SnapdealNavigation';
 import CanvaNavigation from '../Apps/Canva/CanvaNavigation';
 import ProductDetailsNavigation from '../Apps/ProductDetails/ProductDetailsNavigation';
 import NotionNavigation from '../Apps/Notion/NotionNavigation';
+import AllTrailsNavigation from '../Apps/AllTrails/AllTrailsNavigation';
 
 const AllAppNav = createStackNavigator();
 
@@ -66,6 +67,7 @@ const AllAppNavigations = () => {
                 <AllAppNav.Screen name="Canva" component={CanvaNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="ProductDetails" component={ProductDetailsNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="Notion" component={NotionNavigation} options={{ headerShown: false }} />
+                <AllAppNav.Screen name="AllTrails" component={AllTrailsNavigation} options={{ headerShown: false }} />
                 </AllAppNav.Navigator>
             {/* <ECommerceBottomNavigation /> */}
         </GestureHandlerRootView>

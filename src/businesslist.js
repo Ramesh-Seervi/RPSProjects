@@ -1,6 +1,12 @@
 
 export const business = [
     {
+        "id": 2010,
+        "label": "AllTrails",
+        "value": "We'll create a comprehensive app with features like trail listings, search, maps, and user reviews.",
+        "appurl": "AllTrails"
+    },
+    {
         "id": 2009,
         "label": "Notion",
         "value": "otion, focusing on the core features that make it valuable for students, CEOs, and creators. We'll create a clean, minimalist design with powerful functionality.",
