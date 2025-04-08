@@ -1,6 +1,18 @@
 
 export const business = [
     {
+        "id": 2017,
+        "label": "MyTalkingTom",
+        "value": " My Talking Tom clone using React Native and Expo. Well create a fun, interactive pet game with animations, sound effects, and basic interactions",
+        "appurl": "MyTalkingTom"
+    },
+    {
+        "id": 2016,
+        "label": "ClashofClans",
+        "value": " Clash of Clans inspired React Native app with a beautiful design and engaging features. Let's set up the basic structure with tabs for different game sections.",
+        "appurl": "ClashofClans"
+    },
+    {
         "id": 2015,
         "label": "IPL",
         "value": " The app will include features like live scores, team information, match schedules, and player statistics. ",

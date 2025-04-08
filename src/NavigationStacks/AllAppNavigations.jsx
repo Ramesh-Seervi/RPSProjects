@@ -37,6 +37,8 @@ import TempleManagementNavigation from '../Apps/TempleManagement/TempleManagemen
 import AircraftNavigation from '../Apps/Aircraft/AircraftNavigation';
 import MercedesBenzNavigation from '../Apps/MercedesBenz/MercedesBenzNavigation';
 import IPLNavigation from '../Apps/IPL/IPLNavigation';
+import ClashofClansNavigation from '../Apps/ClashofClans/ClashofClansNavigation';
+import MyTalkingTomNavigation from '../Apps/MyTalkingTom/MyTalkingTomNavigation';
 
 const AllAppNav = createStackNavigator();
 
@@ -78,6 +80,8 @@ const AllAppNavigations = () => {
                 <AllAppNav.Screen name="Aircraft" component={AircraftNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="MercedesBenz" component={MercedesBenzNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="IPL" component={IPLNavigation} options={{ headerShown: false }} />
+                <AllAppNav.Screen name="ClashofClans" component={ClashofClansNavigation} options={{ headerShown: false }} />
+                <AllAppNav.Screen name="MyTalkingTom" component={MyTalkingTomNavigation} options={{ headerShown: false }} />
                 </AllAppNav.Navigator>
             {/* <ECommerceBottomNavigation /> */}
         </GestureHandlerRootView>
