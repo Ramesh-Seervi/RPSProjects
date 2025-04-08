@@ -1,6 +1,12 @@
 
 export const business = [
     {
+        "id": 2009,
+        "label": "Notion",
+        "value": "otion, focusing on the core features that make it valuable for students, CEOs, and creators. We'll create a clean, minimalist design with powerful functionality.",
+        "appurl": "Notion"
+    },
+    {
         "id": 2008,
         "label": "ProductDetails",
         "value": "Product Details, Cart and Payment Section, Review Details, and a Review Section, you can break down the app into several screens, each with its own set of components. ",
