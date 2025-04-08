@@ -1,9 +1,15 @@
 
 export const business = [
     {
+        "id": 2015,
+        "label": "IPL",
+        "value": " The app will include features like live scores, team information, match schedules, and player statistics. ",
+        "appurl": "IPL"
+    },
+    {
         "id": 2014,
         "label": "MercedesBenz",
-        "value": " We'll create an app that showcases different aircraft with details, specifications, and beautiful ",
+        "value": " We'll create an app that showcases different aircraft with details, specifications, and xds ",
         "appurl": "MercedesBenz"
     },
    
