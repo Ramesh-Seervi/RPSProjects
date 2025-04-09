@@ -1,7 +1,13 @@
 
 export const business = [
     {
-        "id": 2018,
+        "id": 2020,
+        "label": "BMW",
+        "value": " BMW app using React Native and Expo. We'll create a modern, premium experience worthy of the BMW brand with features like car showcase, model comparison, and dealer locator.",
+        "appurl": "BMW"
+    },
+    {
+        "id": 2019,
         "label": "RollsRoyce",
         "value": "  luxurious Rolls-Royce car app with elegant design and features. Let's set up a beautiful app with multiple tabs for browsing cars, viewing details, and exploring the Rolls-Royce experience.",
         "appurl": "RollsRoyce"
