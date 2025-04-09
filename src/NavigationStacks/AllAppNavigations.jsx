@@ -44,6 +44,7 @@ import RoyalEnfieldNavigation from '../Apps/RoyalEnfield/RoyalEnfieldNavigation'
 import RollsRoyceNavigation from '../Apps/RollsRoyce/RollsRoyceNavigation';
 import BMWNavigation from '../Apps/BMW/BMWNavigation';
 import CromaNavigation from '../Apps/Croma/CromaNavigation';
+import LudoKingNavigation from '../Apps/LudoKing/LudoKingNavigation';
 
 const AllAppNav = createStackNavigator();
 
@@ -92,6 +93,7 @@ const AllAppNavigations = () => {
                 <AllAppNav.Screen name="RollsRoyce" component={RollsRoyceNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="BMW" component={BMWNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="Croma" component={CromaNavigation} options={{ headerShown: false }} />
+                <AllAppNav.Screen name="LudoKing" component={LudoKingNavigation} options={{ headerShown: false }} />
                 </AllAppNav.Navigator>
             {/* <ECommerceBottomNavigation /> */}
         </GestureHandlerRootView>

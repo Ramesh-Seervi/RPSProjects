@@ -1,6 +1,12 @@
 
 export const business = [
     {
+        "id": 2022,
+        "label": "LudoKing",
+        "value": " Ludobeautiful and fully-featured Ludo King game using React Native. We'll create a modern, engaging implementation with multiplayer support, animations, and a polished UI.",
+        "appurl": "LudoKing"
+    },
+    {
         "id": 2021,
         "label": "Croma",
         "value": " Croma app using React Native and Expo. We'll create a modern, premium experience worthy of the Croma brand with features like car showcase, model comparison, and dealer locator.",
