@@ -1,6 +1,18 @@
 
 export const business = [
     {
+        "id": 2024,
+        "label": "Animated",
+        "value": "  Animated-inspired React Native app with a modern and beautiful design. We'll create a tab-based application with features like games, avatar customization, and social features.",
+        "appurl": "Animated"
+    },
+    {
+        "id": 2023,
+        "label": "Roblox",
+        "value": "  Roblox-inspired React Native app with a modern and beautiful design. We'll create a tab-based application with features like games, avatar customization, and social features.",
+        "appurl": "Roblox"
+    },
+    {
         "id": 2022,
         "label": "LudoKing",
         "value": " Ludobeautiful and fully-featured Ludo King game using React Native. We'll create a modern, engaging implementation with multiplayer support, animations, and a polished UI.",
