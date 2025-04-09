@@ -40,6 +40,7 @@ import IPLNavigation from '../Apps/IPL/IPLNavigation';
 import ClashofClansNavigation from '../Apps/ClashofClans/ClashofClansNavigation';
 import MyTalkingTomNavigation from '../Apps/MyTalkingTom/MyTalkingTomNavigation';
 import PUBGBattlegroundNavigation from '../Apps/PUBGBattleground/PUBGBattlegroundNavigation';
+import RoyalEnfieldNavigation from '../Apps/RoyalEnfield/RoyalEnfieldNavigation';
 
 const AllAppNav = createStackNavigator();
 
@@ -84,6 +85,7 @@ const AllAppNavigations = () => {
                 <AllAppNav.Screen name="ClashofClans" component={ClashofClansNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="MyTalkingTom" component={MyTalkingTomNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="PUBGBattleground" component={PUBGBattlegroundNavigation} options={{ headerShown: false }} />
+                <AllAppNav.Screen name="RoyalEnfield" component={RoyalEnfieldNavigation} options={{ headerShown: false }} />
                 </AllAppNav.Navigator>
             {/* <ECommerceBottomNavigation /> */}
         </GestureHandlerRootView>
