@@ -43,6 +43,7 @@ import PUBGBattlegroundNavigation from '../Apps/PUBGBattleground/PUBGBattlegroun
 import RoyalEnfieldNavigation from '../Apps/RoyalEnfield/RoyalEnfieldNavigation';
 import RollsRoyceNavigation from '../Apps/RollsRoyce/RollsRoyceNavigation';
 import BMWNavigation from '../Apps/BMW/BMWNavigation';
+import CromaNavigation from '../Apps/Croma/CromaNavigation';
 
 const AllAppNav = createStackNavigator();
 
@@ -90,6 +91,7 @@ const AllAppNavigations = () => {
                 <AllAppNav.Screen name="RoyalEnfield" component={RoyalEnfieldNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="RollsRoyce" component={RollsRoyceNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="BMW" component={BMWNavigation} options={{ headerShown: false }} />
+                <AllAppNav.Screen name="Croma" component={CromaNavigation} options={{ headerShown: false }} />
                 </AllAppNav.Navigator>
             {/* <ECommerceBottomNavigation /> */}
         </GestureHandlerRootView>
