@@ -47,6 +47,7 @@ import CromaNavigation from '../Apps/Croma/CromaNavigation';
 import LudoKingNavigation from '../Apps/LudoKing/LudoKingNavigation';
 import RobloxNavigation from '../Apps/Roblox/RobloxNavigation';
 import AnimatedNavigation from '../Apps/Animated/AnimatedNavigation';
+import ShowcaseNavigation from '../Apps/Showcase/ShowcaseNavigation';
 
 const AllAppNav = createStackNavigator();
 
@@ -98,6 +99,7 @@ const AllAppNavigations = () => {
                 <AllAppNav.Screen name="LudoKing" component={LudoKingNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="Roblox" component={RobloxNavigation} options={{ headerShown: false }} />
                 <AllAppNav.Screen name="Animated" component={AnimatedNavigation} options={{ headerShown: false }} />
+                <AllAppNav.Screen name="Showcase" component={ShowcaseNavigation} options={{ headerShown: false }} />
                 </AllAppNav.Navigator>
             {/* <ECommerceBottomNavigation /> */}
         </GestureHandlerRootView>

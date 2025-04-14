@@ -1,6 +1,12 @@
 
 export const business = [
     {
+        "id": 2025,
+        "label": "Showcase",
+        "value": "  Showcase-inspired React Native app with a modern and beautiful design. We'll create a tab-based application with features like games, avatar customization, and social features.",
+        "appurl": "Showcase"
+    },
+    {
         "id": 2024,
         "label": "Animated",
         "value": "  Animated-inspired React Native app with a modern and beautiful design. We'll create a tab-based application with features like games, avatar customization, and social features.",
